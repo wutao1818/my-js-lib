@@ -14,8 +14,10 @@
 ## 使用方式
 
 ```javascript
-import Toast from 'wutao-toast';
+import { WutaoArea, Toast, Mybutton } from 'wutao-lib-js';
+Vue.use(WutaoArea);
 Vue.use(Toast);
+Vue.use(Mybutton);
   
 ```
 
