@@ -1,0 +1,51 @@
+{
+  "name": "wutao-lib-js",
+  "version": "1.1.0",
+  "description": "one is lib about javascript",
+  "author": "wutao",
+  "private": false,
+  "main": "lib/index.js",
+  "scripts": {
+    "prod": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "rollup",
+    "components"
+  ],
+  "license": "MIT",
+  "bugs": {},
+  "dependencies": {},
+  "peerDependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "autoprefixer": "^9.5.1",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-syntax-exponentiation-operator": "^6.13.0",
+    "babel-preset-env": "^1.7.0",
+    "less": "^3.9.0",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-url": "^8.0.0",
+    "rollup": "^1.0.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-image": "^1.0.2",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.0.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-terser": "^4.0.1",
+    "rollup-plugin-url": "^2.2.1",
+    "rollup-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 4.0.0"
+  }
+}
